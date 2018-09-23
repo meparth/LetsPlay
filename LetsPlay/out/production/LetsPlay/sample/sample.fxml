@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ededed;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="btnServer" layoutX="51.0" layoutY="108.0" mnemonicParsing="false" onAction="#onClickServer" prefHeight="185.0" prefWidth="238.0" style="-fx-background-color: #0000;" text="Create room" textFill="#0b6880">
+         <font>
+            <Font name="Ink Free" size="29.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btnClient" layoutX="313.0" layoutY="108.0" mnemonicParsing="false" onAction="#onClickClient" prefHeight="185.0" prefWidth="238.0" style="-fx-background-color: #0000;" text="Join room" textFill="#ab1515">
+         <font>
+            <Font name="Ink Free" size="29.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>
